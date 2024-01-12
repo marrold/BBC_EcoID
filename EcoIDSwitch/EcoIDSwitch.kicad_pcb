@@ -301,7 +301,7 @@
   (gr_line (start 155.4 68.1) (end 155.4 101.8) (layer "Edge.Cuts") (width 0.1) (tstamp 8c039d10-95ae-4185-9cd5-2509b8628f2a))
   (gr_line (start 168.1 101.8) (end 168.1 68.1) (layer "Edge.Cuts") (width 0.1) (tstamp c334d920-d75b-48f8-92f5-f031ebede6c5))
   (gr_line (start 155.4 101.8) (end 168.1 101.8) (layer "Edge.Cuts") (width 0.1) (tstamp fd2abd2b-ea64-4219-9b70-048d9f7244fa))
-  (gr_text "BBC EcoID\nSwitch\nv0.1" (at 161.75 95.68) (layer "B.SilkS") (tstamp 13145a72-1d65-4a5a-a755-2d3a480e5b57)
+  (gr_text "BBC EcoID\nSwitch\nv0.2" (at 161.75 95.68) (layer "B.SilkS") (tstamp 13145a72-1d65-4a5a-a755-2d3a480e5b57)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "JLCJLCJLCJLC" (at 161.75 79.05 270) (layer "F.SilkS") (tstamp ace6aae9-7ae1-4bf7-b585-0ed7a399ba01)

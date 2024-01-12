@@ -93,154 +93,12 @@
   (net 16 "/7_in")
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp 49139c15-e72a-4bf2-9712-97aac477375e)
-    (at 147.8 73.9)
+    (tedit 5A64794F) (tstamp 3f6f306a-315a-40f5-9de7-8421a0e0c5ae)
+    (at 173.33 79.644284)
     (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "EcoIDSolder.kicad_sch")
     (property "Sheetname" "")
-    (path "/4e608c51-2802-42a7-b3c9-67b9e04b2da0")
-    (attr exclude_from_pos_files)
-    (fp_text reference "JP2" (at 0 -1.8) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 2328571a-86ea-4710-89ab-8527adc27c2d)
-    )
-    (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 80c7e4ce-d256-4aac-8332-3418151f28b0)
-    )
-    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 2c8b2531-1f92-4531-8611-3dc6b39fe56d))
-    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 7843b74a-b907-40c6-9507-28498bc21f4a))
-    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 892c4b90-902a-494e-a4e9-47b820d81440))
-    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp ece7ae38-4468-4e73-9445-79ece198b31c))
-    (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 3 "/1_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-            (xy 1 0)
-            (xy 0.5 0.75)
-            (xy -0.5 0.75)
-            (xy -0.5 -0.75)
-            (xy 0.5 -0.75)
-          ) (width 0) (fill yes))
-      ) (tstamp d90e780f-c455-47e8-9e04-108c4ba48a0e))
-    (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 4 "/1_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-            (xy 0.5 0.75)
-            (xy -0.65 0.75)
-            (xy -0.15 0)
-            (xy -0.65 -0.75)
-            (xy 0.5 -0.75)
-          ) (width 0) (fill yes))
-      ) (tstamp 588034a5-bb77-410b-860a-c4562f1118f0))
-  )
-
-  (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp 4cf0014d-358e-4ba5-8ad2-77b5e99b9f51)
-    (at 147.8 90.442858)
-    (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-    (tags "solder jumper open")
-    (property "Sheetfile" "EcoIDSolder.kicad_sch")
-    (property "Sheetname" "")
-    (path "/329788eb-1554-4c3f-8b3b-350c6239ff97")
-    (attr exclude_from_pos_files)
-    (fp_text reference "JP8" (at 0 -1.8) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 4bdadd38-8ff5-47ff-a96d-4ddc587e084e)
-    )
-    (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 2ffd59fb-7fe4-48de-b684-b8596c151982)
-    )
-    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 241f0951-d499-45ec-aabe-2afa1ccba61f))
-    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 4625166e-7894-4a87-a28d-e5129b1cf28f))
-    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 78b2bec7-ff85-48b7-a944-14a405f25a71))
-    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp bf01b161-8521-4ead-80fa-dcce3c2fc424))
-    (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 15 "/7_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-            (xy 1 0)
-            (xy 0.5 0.75)
-            (xy -0.5 0.75)
-            (xy -0.5 -0.75)
-            (xy 0.5 -0.75)
-          ) (width 0) (fill yes))
-      ) (tstamp 246ded1f-602c-4d62-a790-7834c11f23ba))
-    (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 16 "/7_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-            (xy 0.5 0.75)
-            (xy -0.65 0.75)
-            (xy -0.15 0)
-            (xy -0.65 -0.75)
-            (xy 0.5 -0.75)
-          ) (width 0) (fill yes))
-      ) (tstamp f689b951-fb78-428c-a205-68a4ff1be582))
-  )
-
-  (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp 5a7f2360-e708-408b-8ee0-b98f1b333e5c)
-    (at 147.8 87.68571)
-    (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-    (tags "solder jumper open")
-    (property "Sheetfile" "EcoIDSolder.kicad_sch")
-    (property "Sheetname" "")
-    (path "/7728efcb-293f-40ca-9654-4eb42f0f7dff")
-    (attr exclude_from_pos_files)
-    (fp_text reference "JP7" (at 0 -1.8) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 512766ef-7257-498f-8285-1d540e0d70e0)
-    )
-    (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 2ecf37d7-7177-47d0-b896-97337848f428)
-    )
-    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 2971a975-f997-4f1d-8a7b-46e16343b16d))
-    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp c6a21652-aed1-490e-b85e-555b5c11b617))
-    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp d8064004-8112-492b-a15c-f6a28ba003c4))
-    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp e6f552c3-b69c-4cfe-9f7d-f0afd6190ffb))
-    (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 13 "/6_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-            (xy 1 0)
-            (xy 0.5 0.75)
-            (xy -0.5 0.75)
-            (xy -0.5 -0.75)
-            (xy 0.5 -0.75)
-          ) (width 0) (fill yes))
-      ) (tstamp 36680eb7-ec06-44a1-a433-8a92216dc290))
-    (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 14 "/6_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
-      (options (clearance outline) (anchor rect))
-      (primitives
-        (gr_poly (pts
-            (xy 0.5 0.75)
-            (xy -0.65 0.75)
-            (xy -0.15 0)
-            (xy -0.65 -0.75)
-            (xy 0.5 -0.75)
-          ) (width 0) (fill yes))
-      ) (tstamp 6b1039f7-7c30-4d6d-b24d-288b25d7a422))
-  )
-
-  (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp 71ed303f-65cc-4b57-802a-9e279a09eb65)
-    (at 147.8 79.414284)
-    (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-    (tags "solder jumper open")
-    (property "Sheetfile" "EcoIDSolder.kicad_sch")
-    (property "Sheetname" "")
-    (path "/a5027021-7fd6-4427-bb9b-2dc1be7fcd36")
     (attr exclude_from_pos_files)
     (fp_text reference "JP4" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -281,28 +139,27 @@
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp ba4bcb59-1683-4e67-8cc0-349dee56f2bc)
-    (at 147.8 82.171426)
+    (tedit 5A64794F) (tstamp 4a224491-f72b-48c2-b26c-b93de239b9bd)
+    (at 173.33 87.91571)
     (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "EcoIDSolder.kicad_sch")
     (property "Sheetname" "")
-    (path "/872bf91a-c8eb-486c-94ae-9503bc3cd543")
     (attr exclude_from_pos_files)
-    (fp_text reference "JP5" (at 0 -1.8) (layer "F.SilkS") hide
+    (fp_text reference "JP7" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 699ce4e8-00f6-4380-bc7b-b978ba537d30)
+      (tstamp 512766ef-7257-498f-8285-1d540e0d70e0)
     )
     (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp e8969ce1-b4ff-4ea0-ac24-eb1b3f11790d)
+      (tstamp 2ecf37d7-7177-47d0-b896-97337848f428)
     )
-    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 72a9931c-ec9b-498b-b0ea-0175da218e46))
-    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp a491ac62-9aed-4c03-b518-ed4a2fdd833d))
-    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp ef4a8284-9554-4452-b8a5-c214f17d5d3b))
-    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp fc5351e1-78c9-46f1-9da4-73510bac4710))
+    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 2971a975-f997-4f1d-8a7b-46e16343b16d))
+    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp c6a21652-aed1-490e-b85e-555b5c11b617))
+    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp d8064004-8112-492b-a15c-f6a28ba003c4))
+    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp e6f552c3-b69c-4cfe-9f7d-f0afd6190ffb))
     (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 9 "/4_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
+      (net 13 "/6_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
@@ -312,9 +169,9 @@
             (xy -0.5 -0.75)
             (xy 0.5 -0.75)
           ) (width 0) (fill yes))
-      ) (tstamp 3fd11998-845e-447a-8d43-61c09b624dea))
+      ) (tstamp 36680eb7-ec06-44a1-a433-8a92216dc290))
     (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 10 "/4_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
+      (net 14 "/6_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
@@ -324,32 +181,31 @@
             (xy -0.65 -0.75)
             (xy 0.5 -0.75)
           ) (width 0) (fill yes))
-      ) (tstamp b2fd60ef-2551-4616-8237-03c48cb180a6))
+      ) (tstamp 6b1039f7-7c30-4d6d-b24d-288b25d7a422))
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp df988719-75c8-48e1-bc83-76baf79cec45)
-    (at 147.8 76.657142)
+    (tedit 5A64794F) (tstamp 59c37218-4680-41fe-89f9-1f4f24b40ba2)
+    (at 173.33 74.13)
     (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "EcoIDSolder.kicad_sch")
     (property "Sheetname" "")
-    (path "/e7dce737-5703-44ad-9e87-95bc86c0c98a")
     (attr exclude_from_pos_files)
-    (fp_text reference "JP3" (at 0 -1.8) (layer "F.SilkS") hide
+    (fp_text reference "JP2" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp f7bba5b7-aea5-41af-8eed-c6bf659aabae)
+      (tstamp 2328571a-86ea-4710-89ab-8527adc27c2d)
     )
     (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp daa442ad-addb-4dec-a8e6-8158d5249ae5)
+      (tstamp 80c7e4ce-d256-4aac-8332-3418151f28b0)
     )
-    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 2f6287f4-4ee6-4295-88fd-56153c1fe0b8))
-    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 3a8cb372-c9b7-4bc6-a542-130dc32afae3))
-    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 406068f1-de22-45ce-b507-1d108acfacf6))
-    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp b6ffd1ad-aaaf-496b-89f7-3d9bd91d4a32))
+    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 2c8b2531-1f92-4531-8611-3dc6b39fe56d))
+    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 7843b74a-b907-40c6-9507-28498bc21f4a))
+    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 892c4b90-902a-494e-a4e9-47b820d81440))
+    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp ece7ae38-4468-4e73-9445-79ece198b31c))
     (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 5 "/2_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
+      (net 3 "/1_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
@@ -359,9 +215,9 @@
             (xy -0.5 -0.75)
             (xy 0.5 -0.75)
           ) (width 0) (fill yes))
-      ) (tstamp e065d5ae-8d0d-47c2-b1a1-c1c6734ab6d8))
+      ) (tstamp d90e780f-c455-47e8-9e04-108c4ba48a0e))
     (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
-      (net 6 "/2_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
+      (net 4 "/1_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly (pts
@@ -371,17 +227,16 @@
             (xy -0.65 -0.75)
             (xy 0.5 -0.75)
           ) (width 0) (fill yes))
-      ) (tstamp be9b7c05-a5f5-4a03-af48-18501647b575))
+      ) (tstamp 588034a5-bb77-410b-860a-c4562f1118f0))
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp eb6724b0-093a-49a1-8f6b-6d227e2bfc4e)
-    (at 147.8 71.142858)
+    (tedit 5A64794F) (tstamp 6582a9cd-344b-4e57-b863-dd5e715fb5d9)
+    (at 173.33 71.372858)
     (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "EcoIDSolder.kicad_sch")
     (property "Sheetname" "")
-    (path "/e30b7a07-1a7e-4b39-b837-3bf8c2ff4868")
     (attr exclude_from_pos_files)
     (fp_text reference "JP1" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -422,13 +277,150 @@
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
-    (tedit 5A64794F) (tstamp f6bf6874-6589-4d48-be87-178d802b3e65)
-    (at 147.8 84.928568)
+    (tedit 5A64794F) (tstamp 748e80cc-bb27-4664-94bf-3485b050f8f9)
+    (at 173.33 82.401426)
     (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "EcoIDSolder.kicad_sch")
     (property "Sheetname" "")
-    (path "/52ab2ef1-48d9-4bd1-b7da-2825e620641e")
+    (attr exclude_from_pos_files)
+    (fp_text reference "JP5" (at 0 -1.8) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 699ce4e8-00f6-4380-bc7b-b978ba537d30)
+    )
+    (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e8969ce1-b4ff-4ea0-ac24-eb1b3f11790d)
+    )
+    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 72a9931c-ec9b-498b-b0ea-0175da218e46))
+    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp a491ac62-9aed-4c03-b518-ed4a2fdd833d))
+    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp ef4a8284-9554-4452-b8a5-c214f17d5d3b))
+    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp fc5351e1-78c9-46f1-9da4-73510bac4710))
+    (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
+      (net 9 "/4_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 1 0)
+            (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp 3fd11998-845e-447a-8d43-61c09b624dea))
+    (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
+      (net 10 "/4_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 0.5 0.75)
+            (xy -0.65 0.75)
+            (xy -0.15 0)
+            (xy -0.65 -0.75)
+            (xy 0.5 -0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp b2fd60ef-2551-4616-8237-03c48cb180a6))
+  )
+
+  (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
+    (tedit 5A64794F) (tstamp 7783caa2-f996-4a63-999f-775973f2be75)
+    (at 173.33 90.672858)
+    (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+    (tags "solder jumper open")
+    (property "Sheetfile" "EcoIDSolder.kicad_sch")
+    (property "Sheetname" "")
+    (attr exclude_from_pos_files)
+    (fp_text reference "JP8" (at 0 -1.8) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 4bdadd38-8ff5-47ff-a96d-4ddc587e084e)
+    )
+    (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 2ffd59fb-7fe4-48de-b684-b8596c151982)
+    )
+    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 241f0951-d499-45ec-aabe-2afa1ccba61f))
+    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 4625166e-7894-4a87-a28d-e5129b1cf28f))
+    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 78b2bec7-ff85-48b7-a944-14a405f25a71))
+    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp bf01b161-8521-4ead-80fa-dcce3c2fc424))
+    (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
+      (net 15 "/7_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 1 0)
+            (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp 246ded1f-602c-4d62-a790-7834c11f23ba))
+    (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
+      (net 16 "/7_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 0.5 0.75)
+            (xy -0.65 0.75)
+            (xy -0.15 0)
+            (xy -0.65 -0.75)
+            (xy 0.5 -0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp f689b951-fb78-428c-a205-68a4ff1be582))
+  )
+
+  (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
+    (tedit 5A64794F) (tstamp 9831d2e2-d063-4129-9f7d-5e4251ead1ca)
+    (at 173.33 76.887142)
+    (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+    (tags "solder jumper open")
+    (property "Sheetfile" "EcoIDSolder.kicad_sch")
+    (property "Sheetname" "")
+    (attr exclude_from_pos_files)
+    (fp_text reference "JP3" (at 0 -1.8) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f7bba5b7-aea5-41af-8eed-c6bf659aabae)
+    )
+    (fp_text value "SolderJumper_2_Open" (at 0 1.9) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp daa442ad-addb-4dec-a8e6-8158d5249ae5)
+    )
+    (fp_line (start 1.65 1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 2f6287f4-4ee6-4295-88fd-56153c1fe0b8))
+    (fp_line (start -1.65 -1.25) (end 1.65 -1.25) (layer "F.CrtYd") (width 0.05) (tstamp 3a8cb372-c9b7-4bc6-a542-130dc32afae3))
+    (fp_line (start -1.65 -1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 406068f1-de22-45ce-b507-1d108acfacf6))
+    (fp_line (start 1.65 1.25) (end -1.65 1.25) (layer "F.CrtYd") (width 0.05) (tstamp b6ffd1ad-aaaf-496b-89f7-3d9bd91d4a32))
+    (pad "1" smd custom (at -0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
+      (net 5 "/2_out") (pinfunction "A") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 1 0)
+            (xy 0.5 0.75)
+            (xy -0.5 0.75)
+            (xy -0.5 -0.75)
+            (xy 0.5 -0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp e065d5ae-8d0d-47c2-b1a1-c1c6734ab6d8))
+    (pad "2" smd custom (at 0.725 0) (size 0.3 0.3) (layers "F.Cu" "F.Mask")
+      (net 6 "/2_in") (pinfunction "B") (pintype "passive") (zone_connect 2)
+      (options (clearance outline) (anchor rect))
+      (primitives
+        (gr_poly (pts
+            (xy 0.5 0.75)
+            (xy -0.65 0.75)
+            (xy -0.15 0)
+            (xy -0.65 -0.75)
+            (xy 0.5 -0.75)
+          ) (width 0) (fill yes))
+      ) (tstamp be9b7c05-a5f5-4a03-af48-18501647b575))
+  )
+
+  (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (layer "F.Cu")
+    (tedit 5A64794F) (tstamp f92d4d1f-4c7f-4688-bba6-646d0e31f48b)
+    (at 173.33 85.158568)
+    (descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+    (tags "solder jumper open")
+    (property "Sheetfile" "EcoIDSolder.kicad_sch")
+    (property "Sheetname" "")
     (attr exclude_from_pos_files)
     (fp_text reference "JP6" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -469,13 +461,12 @@
   )
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical_SMD" (layer "B.Cu")
-    (tedit 5A19A42E) (tstamp 8c7ca48c-e471-431f-b9e5-3d3cb51b9223)
-    (at 147.7 80.85 180)
+    (tedit 5A19A42E) (tstamp fe941eea-b05a-482e-8096-c89518f93198)
+    (at 173.23 81.08 180)
     (descr "surface-mounted straight socket strip, 2x08, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Surface mounted socket strip SMD 2x08 2.54mm double row")
     (property "Sheetfile" "EcoIDSolder.kicad_sch")
     (property "Sheetname" "")
-    (path "/066938d8-4625-4c9c-af79-52ab94fa02ee")
     (attr smd)
     (fp_text reference "J1" (at 0 11.66) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -588,110 +579,192 @@
     )
   )
 
-  (gr_rect (start 140.8 106.303553) (end 154.8 92.303553) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp 0acf30e2-73d5-4f26-a738-bd86a326d513))
-  (gr_line (start 143.81 70.43) (end 145.79 70.43) (layer "F.SilkS") (width 0.5) (tstamp a353ec92-3cdd-4165-b476-74bdcf979ef0))
-  (gr_line (start 149.81 70.43) (end 151.79 70.43) (layer "F.SilkS") (width 0.5) (tstamp c9019204-6f6e-4d4a-9d65-dd76d0142f03))
-  (gr_line (start 143 90.8) (end 143 70.8) (layer "Edge.Cuts") (width 0.1) (tstamp 18f098ba-d1f4-4c72-b568-43bd485cf487))
-  (gr_arc (start 153.4 91.8) (mid 152.692893 91.507107) (end 152.4 90.8) (layer "Edge.Cuts") (width 0.1) (tstamp 4085c4c3-d033-4951-9530-d0b39e4b4dd2))
-  (gr_arc (start 143 70.8) (mid 143.292893 70.092893) (end 144 69.8) (layer "Edge.Cuts") (width 0.1) (tstamp 733263c5-9a72-42eb-9738-c54e4fca5dd4))
-  (gr_line (start 140.3 105.8) (end 140.300001 92.800001) (layer "Edge.Cuts") (width 0.1) (tstamp 76467dfb-c4ad-4bc8-a0b0-265ce5305ffc))
-  (gr_arc (start 141.3 106.8) (mid 140.592893 106.507107) (end 140.3 105.8) (layer "Edge.Cuts") (width 0.1) (tstamp 90222f2a-460d-4d34-95ff-5bf64834a076))
-  (gr_arc (start 151.4 69.8) (mid 152.107107 70.092893) (end 152.4 70.8) (layer "Edge.Cuts") (width 0.1) (tstamp 922f580a-f261-42ee-b3b7-b39684ad7715))
-  (gr_line (start 154.292893 91.807107) (end 153.4 91.8) (layer "Edge.Cuts") (width 0.1) (tstamp 97e44068-3776-40a9-9a3a-0142eff72b50))
-  (gr_line (start 152.4 70.8) (end 152.4 90.8) (layer "Edge.Cuts") (width 0.1) (tstamp 9b6006ad-24d6-4db4-9345-9d395fa85d89))
-  (gr_line (start 141.300001 91.800001) (end 142 91.8) (layer "Edge.Cuts") (width 0.1) (tstamp 9f1307c5-ed4b-4aac-ab26-edb8676ee3ba))
-  (gr_arc (start 154.292893 91.807107) (mid 155.000002 92.099998) (end 155.292893 92.807107) (layer "Edge.Cuts") (width 0.1) (tstamp b822eec6-f658-4860-8c89-69e9d3f9c26e))
-  (gr_arc (start 155.3 105.8) (mid 155.007107 106.507107) (end 154.3 106.8) (layer "Edge.Cuts") (width 0.1) (tstamp bcacafc2-56d5-43e9-a973-ae9c7dcd2f37))
-  (gr_line (start 144 69.8) (end 151.4 69.8) (layer "Edge.Cuts") (width 0.1) (tstamp c6188380-a622-4492-bea4-2cfbe77b8c04))
-  (gr_line (start 141.3 106.8) (end 154.3 106.8) (layer "Edge.Cuts") (width 0.1) (tstamp c6af6f62-c176-4849-8f1f-c6181f8bc4fb))
-  (gr_arc (start 143 90.8) (mid 142.707107 91.507107) (end 142 91.8) (layer "Edge.Cuts") (width 0.1) (tstamp d057334e-4c47-40e7-bc4d-69fc5714f90c))
-  (gr_arc (start 140.300001 92.800001) (mid 140.592894 92.092894) (end 141.300001 91.800001) (layer "Edge.Cuts") (width 0.1) (tstamp debeeb08-0745-4bdc-8434-2d2dbafd5274))
-  (gr_line (start 155.3 105.8) (end 155.292893 92.807107) (layer "Edge.Cuts") (width 0.1) (tstamp ebe3553f-8610-4f19-97f3-abae004f7b73))
-  (gr_text "JLCJLCJLCJLC" (at 147.8 103.21) (layer "B.SilkS") (tstamp 4dade62c-cf8d-437e-808f-5a303c5ad8bd)
-    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
-  )
-  (gr_text "BBC EcoID\nSolder\nv0.1" (at 147.8 97.26) (layer "B.SilkS") (tstamp 8168347a-87ea-4193-9e69-be9a4564a3e3)
+  (gr_line (start 169.34 70.66) (end 171.32 70.66) (layer "F.SilkS") (width 0.5) (tstamp 6c6e0475-d5fd-4aa9-99a3-3bcf70ca408e))
+  (gr_line (start 175.34 70.66) (end 177.32 70.66) (layer "F.SilkS") (width 0.5) (tstamp bf37b65f-dac9-427f-8e6d-89fa11ab6858))
+  (gr_rect (start 167.075 91.85) (end 179.395 103.71) (layer "F.SilkS") (width 0.15) (fill solid) (tstamp f9caf54e-3668-4d75-9045-b94246bccd47))
+  (gr_line (start 166.885 103.9) (end 179.585 103.9) (layer "Edge.Cuts") (width 0.1) (tstamp 0ddf04a4-6fbe-4207-993c-c0be67b4be6f))
+  (gr_line (start 166.885 70.2) (end 166.885 103.9) (layer "Edge.Cuts") (width 0.1) (tstamp 28a27a91-185b-46ef-92fe-7b5c4528fa37))
+  (gr_line (start 179.585 103.9) (end 179.585 70.2) (layer "Edge.Cuts") (width 0.1) (tstamp 6b6255eb-c6e6-4f94-9e19-616d47af18c3))
+  (gr_line (start 179.585 70.2) (end 166.885 70.2) (layer "Edge.Cuts") (width 0.1) (tstamp a51c2219-6b76-4bcb-9aa5-aec75b42062b))
+  (gr_text "BBC EcoID\nSolder\nv0.2" (at 173.235 97.78) (layer "B.SilkS") (tstamp 1ab40344-b090-4ee8-9299-c5163814e0dd)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
+  (gr_text "JLCJLCJLCJLC" (at 167.77 81.08 270) (layer "B.SilkS") (tstamp 4c8c0197-0eb7-4983-8f59-c696ce164eda)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
 
-  (segment (start 145.4 71.9) (end 146.317858 71.9) (width 0.25) (layer "F.Cu") (net 1) (tstamp 3dcc1c9d-dd82-4553-86f7-0a0838a040dd))
-  (segment (start 146.317858 71.9) (end 147.075 71.142858) (width 0.25) (layer "F.Cu") (net 1) (tstamp bc873ec7-0d8b-4427-8fef-be97c60a21c1))
-  (via (at 145.4 71.9) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 1) (tstamp d06a5bc0-dc32-4ec9-b75f-fd34b850c894))
-  (segment (start 145.335 71.935) (end 145.365 71.935) (width 0.25) (layer "B.Cu") (net 1) (tstamp 0811411d-4dab-4944-a12f-f5aab4cff5a7))
-  (segment (start 145.365 71.935) (end 145.4 71.9) (width 0.25) (layer "B.Cu") (net 1) (tstamp df2c8168-9344-4b6b-8f45-71ad1c7afb59))
-  (segment (start 149.282142 71.9) (end 148.525 71.142858) (width 0.25) (layer "F.Cu") (net 2) (tstamp b05c4a67-3d79-4afa-a308-9b3aaa0d54cc))
-  (segment (start 150 71.9) (end 149.282142 71.9) (width 0.25) (layer "F.Cu") (net 2) (tstamp cde6f504-d856-45cd-a700-74e99c6deeeb))
-  (via (at 150 71.9) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 2) (tstamp 623fa02f-b4c8-47c3-9712-2d032b47924e))
-  (segment (start 150.035 71.935) (end 150 71.9) (width 0.25) (layer "B.Cu") (net 2) (tstamp 33eb83d1-18ec-4ef1-a04d-6674c0a8a276))
-  (segment (start 145.4 74.5) (end 146.475 74.5) (width 0.25) (layer "F.Cu") (net 3) (tstamp 592c40f3-66af-4c1d-81e2-38c43bce9cc2))
-  (segment (start 146.475 74.5) (end 147.075 73.9) (width 0.25) (layer "F.Cu") (net 3) (tstamp 7ab2c3ab-094d-45f0-9328-12eca4e23e46))
-  (via (at 145.4 74.5) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 3) (tstamp e659ac43-6d59-4ca0-9a74-3954755f096c))
-  (segment (start 145.375 74.475) (end 145.4 74.5) (width 0.25) (layer "B.Cu") (net 3) (tstamp baaa7209-9999-4490-938d-ebad9d1f443b))
-  (segment (start 145.335 74.475) (end 145.375 74.475) (width 0.25) (layer "B.Cu") (net 3) (tstamp c4962894-5954-4efb-b839-40396a4459fe))
-  (segment (start 150.1 74.5) (end 149.125 74.5) (width 0.25) (layer "F.Cu") (net 4) (tstamp 02093dc9-06f3-4ca5-996e-030f24fd0606))
-  (segment (start 149.125 74.5) (end 148.525 73.9) (width 0.25) (layer "F.Cu") (net 4) (tstamp 066a0101-da54-414d-a527-14126c8bf3d5))
-  (via (at 150.1 74.5) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 4) (tstamp 0e117f03-c09a-4fdd-9d7a-145175d11aae))
-  (segment (start 150.075 74.475) (end 150.1 74.5) (width 0.25) (layer "B.Cu") (net 4) (tstamp 1d4f4eb8-458e-4bd8-b8c3-4ac31ee4c87d))
-  (segment (start 150.035 74.475) (end 150.075 74.475) (width 0.25) (layer "B.Cu") (net 4) (tstamp 4ffaa5e5-6811-44b6-ada7-afd61a97abd7))
-  (segment (start 146.732142 77) (end 147.075 76.657142) (width 0.25) (layer "F.Cu") (net 5) (tstamp ea9281d8-1114-4a18-9658-4a74798f147c))
-  (segment (start 145.2 77) (end 146.732142 77) (width 0.25) (layer "F.Cu") (net 5) (tstamp f3f33442-7ffc-4ead-a508-f446223bc644))
-  (via (at 145.2 77) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 5) (tstamp 77ac846d-d6e2-499a-a961-5280bf52aec6))
-  (segment (start 145.335 77.015) (end 145.215 77.015) (width 0.25) (layer "B.Cu") (net 5) (tstamp 4442a6ee-0a93-499f-983d-786d1bd11f1d))
-  (segment (start 145.215 77.015) (end 145.2 77) (width 0.25) (layer "B.Cu") (net 5) (tstamp 8c74d05c-f93e-4e33-b1b5-33da738c4e0d))
-  (segment (start 150 77) (end 148.867858 77) (width 0.25) (layer "F.Cu") (net 6) (tstamp 66f6080d-6a27-4e8d-8ea9-4e0f04fe7c13))
-  (segment (start 148.867858 77) (end 148.525 76.657142) (width 0.25) (layer "F.Cu") (net 6) (tstamp 6b61a844-7837-44ca-b4ae-344722103eb3))
-  (via (at 150 77) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 6) (tstamp f5941822-ad63-4069-b638-3b9cd0988671))
-  (segment (start 150.015 77.015) (end 150 77) (width 0.25) (layer "B.Cu") (net 6) (tstamp dc4d0d2a-08e7-453d-8ffe-07ccf7125775))
-  (segment (start 150.035 77.015) (end 150.015 77.015) (width 0.25) (layer "B.Cu") (net 6) (tstamp fd009a97-8650-4c57-b3bc-5dd1816a96b2))
-  (segment (start 145.2 79.6) (end 146.889284 79.6) (width 0.25) (layer "F.Cu") (net 7) (tstamp 43afb725-746f-48c0-9ec0-def8ba673da9))
-  (segment (start 146.889284 79.6) (end 147.075 79.414284) (width 0.25) (layer "F.Cu") (net 7) (tstamp 78506549-29b7-4757-bca5-7080e235e619))
-  (via (at 145.2 79.6) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 7) (tstamp d338e0e2-4dc2-4465-8039-0ce71578c6a6))
-  (segment (start 145.335 79.555) (end 145.245 79.555) (width 0.25) (layer "B.Cu") (net 7) (tstamp 8b07154a-2910-4170-8ffe-cbb3c4d0ba52))
-  (segment (start 145.245 79.555) (end 145.2 79.6) (width 0.25) (layer "B.Cu") (net 7) (tstamp cc588514-8de9-4d9e-8f2c-d1e11e0c2679))
-  (segment (start 150 79.6) (end 148.710716 79.6) (width 0.25) (layer "F.Cu") (net 8) (tstamp 05e8921f-51cc-4b8f-a95e-079cc38392b3))
-  (segment (start 148.710716 79.6) (end 148.525 79.414284) (width 0.25) (layer "F.Cu") (net 8) (tstamp acf9d1f9-7fda-4b8b-b6b9-0a2afc237fdf))
-  (via (at 150 79.6) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 8) (tstamp 3b09a5d1-9013-443d-a862-bb2b7232e5c0))
-  (segment (start 150.035 79.555) (end 150.035 79.565) (width 0.25) (layer "B.Cu") (net 8) (tstamp 1fabb720-1109-4348-97e3-9d6d751fbdf4))
-  (segment (start 150.035 79.565) (end 150 79.6) (width 0.25) (layer "B.Cu") (net 8) (tstamp f357dce3-ed6e-4796-aa08-4ea3479c28ae))
-  (segment (start 147.003574 82.1) (end 147.075 82.171426) (width 0.25) (layer "F.Cu") (net 9) (tstamp 13cfe855-f3b8-4d77-8cdc-0bfd9ba56429))
-  (segment (start 145.3 82.1) (end 147.003574 82.1) (width 0.25) (layer "F.Cu") (net 9) (tstamp bae8c3dc-dc3f-483f-a215-37d958bca6f0))
-  (via (at 145.3 82.1) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 9) (tstamp 3ae9ed0f-4525-4c6c-b9b6-d508eb006851))
-  (segment (start 145.305 82.095) (end 145.3 82.1) (width 0.25) (layer "B.Cu") (net 9) (tstamp 4b673728-01c1-481b-a448-0a835840fddc))
-  (segment (start 145.335 82.095) (end 145.305 82.095) (width 0.25) (layer "B.Cu") (net 9) (tstamp 91f31ee6-7b63-44ee-928c-c56e823df893))
-  (segment (start 148.596426 82.1) (end 148.525 82.171426) (width 0.25) (layer "F.Cu") (net 10) (tstamp 45ab5bae-f6be-4290-9d61-252a1d124f6d))
-  (segment (start 150 82.1) (end 148.596426 82.1) (width 0.25) (layer "F.Cu") (net 10) (tstamp bd040309-3112-4d29-991e-2270c933ba84))
-  (via (at 150 82.1) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 10) (tstamp 811a08e0-4d50-4f32-9531-8007a404cebe))
-  (segment (start 150.005 82.095) (end 150 82.1) (width 0.25) (layer "B.Cu") (net 10) (tstamp 5dc7a69e-c5e8-45cd-9ff8-13bbdb2390db))
-  (segment (start 150.035 82.095) (end 150.005 82.095) (width 0.25) (layer "B.Cu") (net 10) (tstamp f3ed7e15-5c1e-49fb-91a7-c424bbb5c403))
-  (segment (start 145.4 84.6) (end 146.746432 84.6) (width 0.25) (layer "F.Cu") (net 11) (tstamp 643c3eac-2875-475d-861b-97e8d9b9a84b))
-  (segment (start 146.746432 84.6) (end 147.075 84.928568) (width 0.25) (layer "F.Cu") (net 11) (tstamp 699a8d6e-0396-41b8-93f1-eeb8368741a6))
-  (via (at 145.4 84.6) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 11) (tstamp 61591304-38e0-4dd7-b673-43135eb027ab))
-  (segment (start 145.365 84.635) (end 145.4 84.6) (width 0.25) (layer "B.Cu") (net 11) (tstamp 557a31b2-d3e3-4a0b-b794-5fb8b26a753f))
-  (segment (start 145.335 84.635) (end 145.365 84.635) (width 0.25) (layer "B.Cu") (net 11) (tstamp 74fbd790-4e75-417d-b447-b285846960be))
-  (segment (start 150 84.7) (end 148.753568 84.7) (width 0.25) (layer "F.Cu") (net 12) (tstamp 3bdb0eef-cb58-40ce-904d-280fdc59f8ca))
-  (segment (start 148.753568 84.7) (end 148.525 84.928568) (width 0.25) (layer "F.Cu") (net 12) (tstamp 9d832595-21fa-441c-a8bd-bd905543f04f))
-  (via (at 150 84.7) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 12) (tstamp 17ab82cd-797d-4681-b35a-2b56b1f5b1f7))
-  (segment (start 150.035 84.635) (end 150.035 84.665) (width 0.25) (layer "B.Cu") (net 12) (tstamp 83f0bbe7-c262-40a1-980a-dde46ebcbb95))
-  (segment (start 150.035 84.665) (end 150 84.7) (width 0.25) (layer "B.Cu") (net 12) (tstamp b5b87dd2-2b97-4640-baa3-4b7f2dca98e0))
-  (segment (start 145.3 87.2) (end 146.58929 87.2) (width 0.25) (layer "F.Cu") (net 13) (tstamp 4a1ab859-ade4-44f9-b2fd-25a9c6366613))
-  (segment (start 146.58929 87.2) (end 147.075 87.68571) (width 0.25) (layer "F.Cu") (net 13) (tstamp 87e8a2cb-1bce-485f-a700-df770d8a27e8))
-  (via (at 145.3 87.2) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 13) (tstamp 0b2ee663-4fa7-4ac3-97cf-85417a119b15))
-  (segment (start 145.325 87.175) (end 145.3 87.2) (width 0.25) (layer "B.Cu") (net 13) (tstamp 043f4586-847f-4cd9-8010-159e46017c0c))
-  (segment (start 145.335 87.175) (end 145.325 87.175) (width 0.25) (layer "B.Cu") (net 13) (tstamp 8e9c104c-7e54-403f-a13e-723667abd721))
-  (segment (start 149.01071 87.2) (end 148.525 87.68571) (width 0.25) (layer "F.Cu") (net 14) (tstamp 43200176-0f49-4fec-86f5-8cf7d9cbf5af))
-  (segment (start 150 87.2) (end 149.01071 87.2) (width 0.25) (layer "F.Cu") (net 14) (tstamp fe3c94da-603b-40e4-a4ed-52cecbff6565))
-  (via (at 150 87.2) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 14) (tstamp 7b482519-dd2f-49c2-8b3d-4631b068eb50))
-  (segment (start 150.035 87.175) (end 150.025 87.175) (width 0.25) (layer "B.Cu") (net 14) (tstamp 91156a81-ce73-49b6-b101-6944f276d257))
-  (segment (start 150.025 87.175) (end 150 87.2) (width 0.25) (layer "B.Cu") (net 14) (tstamp eaa60a86-df33-47cc-a654-a2ab7b1b2c50))
-  (segment (start 146.332142 89.7) (end 147.075 90.442858) (width 0.25) (layer "F.Cu") (net 15) (tstamp a9c86bf8-de47-4262-84e2-320bfd5df824))
-  (segment (start 145.4 89.7) (end 146.332142 89.7) (width 0.25) (layer "F.Cu") (net 15) (tstamp c9a4b576-b6f2-4194-b5ad-7252e6419b35))
-  (via (at 145.4 89.7) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 15) (tstamp 944f9b7d-daa6-4043-a9c4-62ff7d088b9f))
-  (segment (start 145.335 89.715) (end 145.385 89.715) (width 0.25) (layer "B.Cu") (net 15) (tstamp 4551d868-3dea-42c7-81e0-fac2ad87ce55))
-  (segment (start 145.385 89.715) (end 145.4 89.7) (width 0.25) (layer "B.Cu") (net 15) (tstamp 97094427-2168-4c2d-b9fd-69df9e0ea07d))
-  (segment (start 150 89.7) (end 149.267858 89.7) (width 0.25) (layer "F.Cu") (net 16) (tstamp a155781a-bfd9-4b23-885a-a4cbfeb748bf))
-  (segment (start 149.267858 89.7) (end 148.525 90.442858) (width 0.25) (layer "F.Cu") (net 16) (tstamp e9cc7656-231b-4928-a82b-222a378f865f))
-  (via (at 150 89.7) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 16) (tstamp 17ddf036-e7c6-4ad5-9f40-7cd35abd0af5))
-  (segment (start 150.035 89.715) (end 150.015 89.715) (width 0.25) (layer "B.Cu") (net 16) (tstamp 5fe82a4e-2859-46b0-9725-7f92ed95fbe8))
-  (segment (start 150.015 89.715) (end 150 89.7) (width 0.25) (layer "B.Cu") (net 16) (tstamp 6a03098d-f4c3-4958-89a0-0ba39b0d46c8))
+  (segment (start 170.93 72.13) (end 171.847858 72.13) (width 0.25) (layer "F.Cu") (net 1) (tstamp 0a601b5c-2f81-4d0c-8f6f-98885aca21c6))
+  (segment (start 171.847858 72.13) (end 172.605 71.372858) (width 0.25) (layer "F.Cu") (net 1) (tstamp 850425ee-f1ed-4786-9a66-29e00ef38efb))
+  (via (at 170.93 72.13) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 1) (tstamp 4e4cebc4-601b-4fb5-a1f0-848d144e4e53))
+  (segment (start 170.865 72.165) (end 170.895 72.165) (width 0.25) (layer "B.Cu") (net 1) (tstamp c905d930-c4f2-4ce5-b7fc-0300bccfb676))
+  (segment (start 170.895 72.165) (end 170.93 72.13) (width 0.25) (layer "B.Cu") (net 1) (tstamp f503f5af-9ed8-4b01-b513-ebb5dc01f09e))
+  (segment (start 175.53 72.13) (end 174.812142 72.13) (width 0.25) (layer "F.Cu") (net 2) (tstamp 858801bf-b592-4c59-9956-cf7688fc6046))
+  (segment (start 174.812142 72.13) (end 174.055 71.372858) (width 0.25) (layer "F.Cu") (net 2) (tstamp 8d41e037-a4e1-45b9-bd3c-02870effb117))
+  (via (at 175.53 72.13) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 2) (tstamp 605721d3-a589-4383-89a5-1b2b78013bd5))
+  (segment (start 175.565 72.165) (end 175.53 72.13) (width 0.25) (layer "B.Cu") (net 2) (tstamp 8eb7db1d-4fca-4e3c-bd03-5b190838525b))
+  (segment (start 170.93 74.73) (end 172.005 74.73) (width 0.25) (layer "F.Cu") (net 3) (tstamp 38147c3d-c8b0-4b18-a624-6e69e5106a1a))
+  (segment (start 172.005 74.73) (end 172.605 74.13) (width 0.25) (layer "F.Cu") (net 3) (tstamp bc00d2c9-0a37-4187-ad6e-bbe19b3a8c7d))
+  (via (at 170.93 74.73) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 3) (tstamp 7d8628a3-389f-4c3d-8f93-d3101a361d26))
+  (segment (start 170.865 74.705) (end 170.905 74.705) (width 0.25) (layer "B.Cu") (net 3) (tstamp 9aed02c2-21a6-4df3-91c7-5854eb0fffee))
+  (segment (start 170.905 74.705) (end 170.93 74.73) (width 0.25) (layer "B.Cu") (net 3) (tstamp d6c51f3d-6685-467e-a651-785b19b4f20c))
+  (segment (start 175.63 74.73) (end 174.655 74.73) (width 0.25) (layer "F.Cu") (net 4) (tstamp 3c2d4a99-6e22-42f7-9b74-1183072264bd))
+  (segment (start 174.655 74.73) (end 174.055 74.13) (width 0.25) (layer "F.Cu") (net 4) (tstamp 6eeb8e84-a7e9-4224-92ca-ad15aa7a37b3))
+  (via (at 175.63 74.73) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 4) (tstamp 72655c60-4383-42bb-97c1-851a196d997d))
+  (segment (start 175.565 74.705) (end 175.605 74.705) (width 0.25) (layer "B.Cu") (net 4) (tstamp 4f283573-5ac3-4831-b615-9f640e9acd10))
+  (segment (start 175.605 74.705) (end 175.63 74.73) (width 0.25) (layer "B.Cu") (net 4) (tstamp 53182d2d-585a-4562-af69-591b795e0d35))
+  (segment (start 170.73 77.23) (end 172.262142 77.23) (width 0.25) (layer "F.Cu") (net 5) (tstamp 95dab4c6-cb35-4640-b84e-51e0b429e85a))
+  (segment (start 172.262142 77.23) (end 172.605 76.887142) (width 0.25) (layer "F.Cu") (net 5) (tstamp da668512-9ea0-4650-8761-aeadd3020893))
+  (via (at 170.73 77.23) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 5) (tstamp 632e710c-5e61-4230-bc64-ef1debd96d5b))
+  (segment (start 170.865 77.245) (end 170.745 77.245) (width 0.25) (layer "B.Cu") (net 5) (tstamp 1036549d-0032-4494-8e9c-c5f642f4c806))
+  (segment (start 170.745 77.245) (end 170.73 77.23) (width 0.25) (layer "B.Cu") (net 5) (tstamp 118ab8f9-652f-4dca-abea-270cd3942b6f))
+  (segment (start 175.53 77.23) (end 174.397858 77.23) (width 0.25) (layer "F.Cu") (net 6) (tstamp 610774c8-db40-492f-9f95-08b8da026e84))
+  (segment (start 174.397858 77.23) (end 174.055 76.887142) (width 0.25) (layer "F.Cu") (net 6) (tstamp c1db978f-0d99-4e3b-b9aa-4b1c62bbb401))
+  (via (at 175.53 77.23) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 6) (tstamp 4cffe3bc-6edb-4a8a-bf66-96c8db26e472))
+  (segment (start 175.565 77.245) (end 175.545 77.245) (width 0.25) (layer "B.Cu") (net 6) (tstamp 197aa33e-5c35-4f2c-82b1-5beefa90cec0))
+  (segment (start 175.545 77.245) (end 175.53 77.23) (width 0.25) (layer "B.Cu") (net 6) (tstamp f5614dd7-34cb-45e3-ae6a-6ad3dad1e515))
+  (segment (start 172.419284 79.83) (end 172.605 79.644284) (width 0.25) (layer "F.Cu") (net 7) (tstamp 751d6001-6c1f-4c05-bd1c-dfef4d68394d))
+  (segment (start 170.73 79.83) (end 172.419284 79.83) (width 0.25) (layer "F.Cu") (net 7) (tstamp d11e0c81-a856-4cfc-831e-1ef4c5ed86a4))
+  (via (at 170.73 79.83) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 7) (tstamp 20bd4d06-1db8-4e34-9e0c-f4590026cee0))
+  (segment (start 170.775 79.785) (end 170.73 79.83) (width 0.25) (layer "B.Cu") (net 7) (tstamp a565980a-5a47-4b3f-b8f2-4684941ee0fb))
+  (segment (start 170.865 79.785) (end 170.775 79.785) (width 0.25) (layer "B.Cu") (net 7) (tstamp fb087eff-f960-47a3-a939-ddc0fe4b7ec9))
+  (segment (start 174.240716 79.83) (end 174.055 79.644284) (width 0.25) (layer "F.Cu") (net 8) (tstamp 2c9409fa-8c47-496d-a8e9-40747ade5862))
+  (segment (start 175.53 79.83) (end 174.240716 79.83) (width 0.25) (layer "F.Cu") (net 8) (tstamp 8d0fee4c-e4c1-43f5-a0a2-2e50fab08214))
+  (via (at 175.53 79.83) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 8) (tstamp 44a7be4d-5cb9-4049-8efd-ea29ce09064d))
+  (segment (start 175.565 79.795) (end 175.53 79.83) (width 0.25) (layer "B.Cu") (net 8) (tstamp 59fed10e-b4d0-4c34-865a-1e7b4c9ead49))
+  (segment (start 175.565 79.785) (end 175.565 79.795) (width 0.25) (layer "B.Cu") (net 8) (tstamp 91184679-2a4e-40dd-bcef-a0bf3ac86e24))
+  (segment (start 172.533574 82.33) (end 172.605 82.401426) (width 0.25) (layer "F.Cu") (net 9) (tstamp 352baa03-f070-4ca9-8209-ec9769439d8c))
+  (segment (start 170.83 82.33) (end 172.533574 82.33) (width 0.25) (layer "F.Cu") (net 9) (tstamp 68d67d93-fa88-4845-a30d-72c26f3cdcaa))
+  (via (at 170.83 82.33) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 9) (tstamp cf5faa5f-96de-466c-a554-ca64bf24843f))
+  (segment (start 170.865 82.325) (end 170.835 82.325) (width 0.25) (layer "B.Cu") (net 9) (tstamp 2588f1ef-5802-46b4-9a43-3d85aa7e208d))
+  (segment (start 170.835 82.325) (end 170.83 82.33) (width 0.25) (layer "B.Cu") (net 9) (tstamp c8479d12-457c-45ac-af25-45bb998eced8))
+  (segment (start 175.53 82.33) (end 174.126426 82.33) (width 0.25) (layer "F.Cu") (net 10) (tstamp 84fd18b6-c22f-49b4-9ef5-728e5182649a))
+  (segment (start 174.126426 82.33) (end 174.055 82.401426) (width 0.25) (layer "F.Cu") (net 10) (tstamp f8f831ce-a854-46de-800c-afe4790bb1c0))
+  (via (at 175.53 82.33) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 10) (tstamp 3e9194e8-47a9-47f2-bb7e-82a489c9f54b))
+  (segment (start 175.565 82.325) (end 175.535 82.325) (width 0.25) (layer "B.Cu") (net 10) (tstamp 433d29b0-aafb-49e0-a1c2-4fb43e5fb8b4))
+  (segment (start 175.535 82.325) (end 175.53 82.33) (width 0.25) (layer "B.Cu") (net 10) (tstamp d2dce0cc-ca67-4857-b570-99ed2947a72c))
+  (segment (start 170.93 84.83) (end 172.276432 84.83) (width 0.25) (layer "F.Cu") (net 11) (tstamp 07a3440a-590f-41f7-a750-178c840a05c6))
+  (segment (start 172.276432 84.83) (end 172.605 85.158568) (width 0.25) (layer "F.Cu") (net 11) (tstamp 7652a1f7-969f-42ce-aa05-2e689ea1a1a9))
+  (via (at 170.93 84.83) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 11) (tstamp 5d231dbd-894f-49de-9a49-f57a8aa5e048))
+  (segment (start 170.895 84.865) (end 170.93 84.83) (width 0.25) (layer "B.Cu") (net 11) (tstamp 82d2c873-5598-4591-b5de-91edde87be5b))
+  (segment (start 170.865 84.865) (end 170.895 84.865) (width 0.25) (layer "B.Cu") (net 11) (tstamp 8f42f227-a1b9-4746-84d6-fc396283b97f))
+  (segment (start 175.53 84.93) (end 174.283568 84.93) (width 0.25) (layer "F.Cu") (net 12) (tstamp 8fe51bc4-b174-42ee-ae33-d71a48defa4d))
+  (segment (start 174.283568 84.93) (end 174.055 85.158568) (width 0.25) (layer "F.Cu") (net 12) (tstamp e9a0d12b-52fb-4c16-a98b-9f7a3231275a))
+  (via (at 175.53 84.93) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 12) (tstamp 1508d33b-5e59-4e93-8f2a-a75ca97069a5))
+  (segment (start 175.565 84.895) (end 175.53 84.93) (width 0.25) (layer "B.Cu") (net 12) (tstamp 20902c87-d9d4-4a50-b90b-a48d77607449))
+  (segment (start 175.565 84.865) (end 175.565 84.895) (width 0.25) (layer "B.Cu") (net 12) (tstamp 83a787a7-4a09-4ba9-b374-2e832d1604d8))
+  (segment (start 170.83 87.43) (end 172.11929 87.43) (width 0.25) (layer "F.Cu") (net 13) (tstamp 02c14ee9-6b77-4784-8c17-152cdb60e3db))
+  (segment (start 172.11929 87.43) (end 172.605 87.91571) (width 0.25) (layer "F.Cu") (net 13) (tstamp b85219a8-f5ba-466f-aa01-392df4c56454))
+  (via (at 170.83 87.43) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 13) (tstamp 9a13d13c-7100-4379-80fe-2e1d09abb1a9))
+  (segment (start 170.855 87.405) (end 170.83 87.43) (width 0.25) (layer "B.Cu") (net 13) (tstamp 44dd6090-c830-4fd8-8f67-ef37f774a83d))
+  (segment (start 170.865 87.405) (end 170.855 87.405) (width 0.25) (layer "B.Cu") (net 13) (tstamp cd8349d9-c94d-4962-bef1-171f8f9cda60))
+  (segment (start 174.54071 87.43) (end 174.055 87.91571) (width 0.25) (layer "F.Cu") (net 14) (tstamp 8cf1b57a-8086-4987-8c7e-5861a5fa1089))
+  (segment (start 175.53 87.43) (end 174.54071 87.43) (width 0.25) (layer "F.Cu") (net 14) (tstamp e928f50f-aae3-45f0-a0f8-011767cf5bf4))
+  (via (at 175.53 87.43) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 14) (tstamp bd13f50e-d0fd-409e-9fe5-b947e5f077d2))
+  (segment (start 175.555 87.405) (end 175.53 87.43) (width 0.25) (layer "B.Cu") (net 14) (tstamp 0c350920-27ab-46fb-962e-938f114a5312))
+  (segment (start 175.565 87.405) (end 175.555 87.405) (width 0.25) (layer "B.Cu") (net 14) (tstamp f69cbe92-12f5-4530-9787-f4a234e9fb00))
+  (segment (start 171.862142 89.93) (end 172.605 90.672858) (width 0.25) (layer "F.Cu") (net 15) (tstamp 7e9fc05e-cb4b-4404-aab4-36c82819abc3))
+  (segment (start 170.93 89.93) (end 171.862142 89.93) (width 0.25) (layer "F.Cu") (net 15) (tstamp d2ed4bcb-904a-4128-a55c-d96fcbb21478))
+  (via (at 170.93 89.93) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 15) (tstamp 681a75e9-9d97-4836-9549-469110234668))
+  (segment (start 170.865 89.945) (end 170.915 89.945) (width 0.25) (layer "B.Cu") (net 15) (tstamp 222582bd-8417-4a50-9396-2d8f475eac59))
+  (segment (start 170.915 89.945) (end 170.93 89.93) (width 0.25) (layer "B.Cu") (net 15) (tstamp 8bb5dd95-d51a-4757-8642-4f0592042ebf))
+  (segment (start 175.53 89.93) (end 174.797858 89.93) (width 0.25) (layer "F.Cu") (net 16) (tstamp 503e9540-3a36-415b-bb64-f5378e5f181e))
+  (segment (start 174.797858 89.93) (end 174.055 90.672858) (width 0.25) (layer "F.Cu") (net 16) (tstamp 7ad9cc65-f6aa-49f3-a8ff-c53e554cbc12))
+  (via (at 175.53 89.93) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 16) (tstamp a92ef787-bfa2-41e8-a7a3-69b61832f057))
+  (segment (start 175.565 89.945) (end 175.545 89.945) (width 0.25) (layer "B.Cu") (net 16) (tstamp 3de1a891-59ca-4b83-ab28-bb50496fe663))
+  (segment (start 175.545 89.945) (end 175.53 89.93) (width 0.25) (layer "B.Cu") (net 16) (tstamp c7180718-a707-4726-9ab8-2b6b65266d5d))
 
+  (group "" (id a2ab077d-145c-45c2-a5d4-dd52857f6610)
+    (members
+      02c14ee9-6b77-4784-8c17-152cdb60e3db
+      07a3440a-590f-41f7-a750-178c840a05c6
+      0a601b5c-2f81-4d0c-8f6f-98885aca21c6
+      0c350920-27ab-46fb-962e-938f114a5312
+      1036549d-0032-4494-8e9c-c5f642f4c806
+      118ab8f9-652f-4dca-abea-270cd3942b6f
+      1508d33b-5e59-4e93-8f2a-a75ca97069a5
+      197aa33e-5c35-4f2c-82b1-5beefa90cec0
+      20902c87-d9d4-4a50-b90b-a48d77607449
+      20bd4d06-1db8-4e34-9e0c-f4590026cee0
+      222582bd-8417-4a50-9396-2d8f475eac59
+      2588f1ef-5802-46b4-9a43-3d85aa7e208d
+      2c9409fa-8c47-496d-a8e9-40747ade5862
+      352baa03-f070-4ca9-8209-ec9769439d8c
+      38147c3d-c8b0-4b18-a624-6e69e5106a1a
+      3c2d4a99-6e22-42f7-9b74-1183072264bd
+      3de1a891-59ca-4b83-ab28-bb50496fe663
+      3e9194e8-47a9-47f2-bb7e-82a489c9f54b
+      3f6f306a-315a-40f5-9de7-8421a0e0c5ae
+      433d29b0-aafb-49e0-a1c2-4fb43e5fb8b4
+      44a7be4d-5cb9-4049-8efd-ea29ce09064d
+      44dd6090-c830-4fd8-8f67-ef37f774a83d
+      4a224491-f72b-48c2-b26c-b93de239b9bd
+      4cffe3bc-6edb-4a8a-bf66-96c8db26e472
+      4e4cebc4-601b-4fb5-a1f0-848d144e4e53
+      4f283573-5ac3-4831-b615-9f640e9acd10
+      503e9540-3a36-415b-bb64-f5378e5f181e
+      53182d2d-585a-4562-af69-591b795e0d35
+      59c37218-4680-41fe-89f9-1f4f24b40ba2
+      59fed10e-b4d0-4c34-865a-1e7b4c9ead49
+      5d231dbd-894f-49de-9a49-f57a8aa5e048
+      605721d3-a589-4383-89a5-1b2b78013bd5
+      610774c8-db40-492f-9f95-08b8da026e84
+      632e710c-5e61-4230-bc64-ef1debd96d5b
+      6582a9cd-344b-4e57-b863-dd5e715fb5d9
+      681a75e9-9d97-4836-9549-469110234668
+      68d67d93-fa88-4845-a30d-72c26f3cdcaa
+      6c6e0475-d5fd-4aa9-99a3-3bcf70ca408e
+      6eeb8e84-a7e9-4224-92ca-ad15aa7a37b3
+      72655c60-4383-42bb-97c1-851a196d997d
+      748e80cc-bb27-4664-94bf-3485b050f8f9
+      751d6001-6c1f-4c05-bd1c-dfef4d68394d
+      7652a1f7-969f-42ce-aa05-2e689ea1a1a9
+      7783caa2-f996-4a63-999f-775973f2be75
+      7ad9cc65-f6aa-49f3-a8ff-c53e554cbc12
+      7d8628a3-389f-4c3d-8f93-d3101a361d26
+      7e9fc05e-cb4b-4404-aab4-36c82819abc3
+      82d2c873-5598-4591-b5de-91edde87be5b
+      83a787a7-4a09-4ba9-b374-2e832d1604d8
+      84fd18b6-c22f-49b4-9ef5-728e5182649a
+      850425ee-f1ed-4786-9a66-29e00ef38efb
+      858801bf-b592-4c59-9956-cf7688fc6046
+      8bb5dd95-d51a-4757-8642-4f0592042ebf
+      8cf1b57a-8086-4987-8c7e-5861a5fa1089
+      8d0fee4c-e4c1-43f5-a0a2-2e50fab08214
+      8d41e037-a4e1-45b9-bd3c-02870effb117
+      8eb7db1d-4fca-4e3c-bd03-5b190838525b
+      8f42f227-a1b9-4746-84d6-fc396283b97f
+      8fe51bc4-b174-42ee-ae33-d71a48defa4d
+      91184679-2a4e-40dd-bcef-a0bf3ac86e24
+      95dab4c6-cb35-4640-b84e-51e0b429e85a
+      9831d2e2-d063-4129-9f7d-5e4251ead1ca
+      9a13d13c-7100-4379-80fe-2e1d09abb1a9
+      9aed02c2-21a6-4df3-91c7-5854eb0fffee
+      a565980a-5a47-4b3f-b8f2-4684941ee0fb
+      a92ef787-bfa2-41e8-a7a3-69b61832f057
+      b85219a8-f5ba-466f-aa01-392df4c56454
+      bc00d2c9-0a37-4187-ad6e-bbe19b3a8c7d
+      bd13f50e-d0fd-409e-9fe5-b947e5f077d2
+      bf37b65f-dac9-427f-8e6d-89fa11ab6858
+      c1db978f-0d99-4e3b-b9aa-4b1c62bbb401
+      c7180718-a707-4726-9ab8-2b6b65266d5d
+      c8479d12-457c-45ac-af25-45bb998eced8
+      c905d930-c4f2-4ce5-b7fc-0300bccfb676
+      cd8349d9-c94d-4962-bef1-171f8f9cda60
+      cf5faa5f-96de-466c-a554-ca64bf24843f
+      d11e0c81-a856-4cfc-831e-1ef4c5ed86a4
+      d2dce0cc-ca67-4857-b570-99ed2947a72c
+      d2ed4bcb-904a-4128-a55c-d96fcbb21478
+      d6c51f3d-6685-467e-a651-785b19b4f20c
+      da668512-9ea0-4650-8761-aeadd3020893
+      e928f50f-aae3-45f0-a0f8-011767cf5bf4
+      e9a0d12b-52fb-4c16-a98b-9f7a3231275a
+      f503f5af-9ed8-4b01-b513-ebb5dc01f09e
+      f5614dd7-34cb-45e3-ae6a-6ad3dad1e515
+      f69cbe92-12f5-4530-9787-f4a234e9fb00
+      f8f831ce-a854-46de-800c-afe4790bb1c0
+      f92d4d1f-4c7f-4688-bba6-646d0e31f48b
+      fb087eff-f960-47a3-a939-ddc0fe4b7ec9
+      fe941eea-b05a-482e-8096-c89518f93198
+    )
+  )
 )
